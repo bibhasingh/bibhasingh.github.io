@@ -1,1 +1,69 @@
 @import url("./something.css");
+
+.up-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  height: 200px;
+}
+
+.professional-summary {
+  background-color: rgb(217, 205, 255);
+  width: 2000px;
+  text-align: center;
+}
+
+.down-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 30px;
+  height: 600px;
+}
+
+.profile {
+  background-color: rgb(127, 255, 140);
+  width: 33%;
+  height: 100%;
+}
+
+.profile h2 {
+  text-align: center;
+}
+
+.profile-list {
+  padding: 20px;
+  margin: 40px;
+  line-height: 1.5cm;
+  font-weight: bold;
+}
+
+.sih {
+  background-color: rgb(255, 172, 127);
+  width: 33%;
+  height: 100%;
+  text-align: center;
+}
+
+.sih h2 {
+  color: black;
+}
+
+.strength {
+  margin-bottom: 40px;
+}
+
+.interest {
+  margin-bottom: 40px;
+}
+
+.blog {
+  background-color: rgb(255, 223, 127);
+  width: 33%;
+  height: 100%;
+  text-align: center;
+}
+
+.blog a {
+  line-height: 3cm;
+}
